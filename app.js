@@ -85,7 +85,7 @@ function getRandomItem(arr) {
 
 // Hadith from API
 function loadHadithAPI() {
-  fetch('http://localhost:5000/api/hadith')
+  fetch('https://dikhrduadaily.onrender.com/api/hadith')
     .then(res => res.json())
     .then(data => {
       document.getElementById('hadith-en').textContent = data.english || data.hadith || 'No hadith found.';
@@ -100,7 +100,7 @@ function loadHadithAPI() {
 
 // Dua from API
 function loadDuaAPI() {
-  fetch('http://localhost:5000/api/dua')
+  fetch('https://dikhrduadaily.onrender.com/api/dua')
     .then(res => res.json())
     .then(data => {
       document.getElementById('dua-ar').textContent = data.arabic || '';
