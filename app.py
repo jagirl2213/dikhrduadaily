@@ -1,5 +1,3 @@
-gunicorn app:app
-
 from flask import Flask, jsonify, send_from_directory
 import os
 from flask import Flask, jsonify
