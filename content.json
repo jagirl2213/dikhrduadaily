@@ -1,59 +1,33 @@
 {
-  "quran": [
-    {
-      "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
-      "english": "Indeed, with hardship [will be] ease. (Quran 94:6)",
-      "source": "https://quran.com/94/6",
-      "sourceText": "Quran.com"
-    },
-    {
-      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-      "english": "Allah! There is no deity except Him, the Ever-Living, the Sustainer of [all] existence. (Quran 2:255)",
-      "source": "https://quran.com/2/255",
-      "sourceText": "Quran.com"
-    },
-    {
-      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
-      "english": "For indeed, with hardship [will be] ease. (Quran 94:5)",
-      "source": "https://quran.com/94/5",
-      "sourceText": "Quran.com"
-    }
-  ],
   "hadith": [
     {
-      "english": "The best among you are those who have the best manners and character. (Bukhari)",
-      "source": "https://hadithoftheday.com/the-best-among-you-are-those-who-have-the-best-manners-and-character/",
-      "sourceText": "Hadithoftheday.com"
+      "english": "Actions are but by intention.",
+      "source": "https://sunnah.com/bukhari:1"
     },
     {
-      "english": "Actions are judged by intentions. (Bukhari & Muslim)",
-      "source": "https://hadithoftheday.com/actions-are-judged-by-intentions/",
-      "sourceText": "Hadithoftheday.com"
+      "english": "The best among you are those who have the best manners and character.",
+      "source": "https://sunnah.com/bukhari:6029"
     },
     {
-      "english": "Make things easy and do not make them difficult, and cheer people up and do not drive them away. (Bukhari)",
-      "source": "https://hadithoftheday.com/make-things-easy-and-do-not-make-them-difficult/",
-      "sourceText": "Hadithoftheday.com"
+      "english": "Make things easy and do not make them difficult, cheer the people up by conveying glad tidings to them and do not repulse (them).",
+      "source": "https://sunnah.com/bukhari:6125"
     }
   ],
   "dua": [
     {
-      "arabic": "رَبِّ زِدْنِي عِلْمًا",
-      "english": "My Lord, increase me in knowledge. (Quran 20:114)",
-      "source": "http://abuaminaelias.com/dailydua/",
-      "sourceText": "AbuAminaElias.com"
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "english": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.",
+      "source": "https://www.duas.org/safarsupp.htm"
     },
     {
-      "arabic": "اللهم إني أسألك العفو والعافية",
-      "english": "O Allah, I ask You for pardon and well-being.",
-      "source": "http://abuaminaelias.com/dailydua/dua-ask-for-pardon-and-well-being/",
-      "sourceText": "AbuAminaElias.com"
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ",
+      "english": "O Allah, I ask You for pardon and well-being in this life and in the Hereafter.",
+      "source": "https://www.duas.org/health.htm"
     },
     {
-      "arabic": "اللهم اهدني وسددني",
+      "arabic": "اللَّهُمَّ اهْدِنِي وَسَدِّدْنِي",
       "english": "O Allah, guide me and keep me steadfast.",
-      "source": "http://abuaminaelias.com/dailydua/dua-for-guidance-and-steadfastness/",
-      "sourceText": "AbuAminaElias.com"
+      "source": "https://www.duas.org/istikhara.htm"
     }
   ]
 }
