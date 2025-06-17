@@ -1,0 +1,394 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f7fafc;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2rem 1rem;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.app-desc {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #3a3a3a;
+  margin-bottom: 1.2rem;
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.5rem;
+}
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 1.5rem;
+  padding: 1.2rem 1rem 1rem 1rem;
+}
+.love-message {
+  background: #f8f9fa;
+  border: 1.5px solid #e0e0e0;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem 1rem 1.2rem 1rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.love-message h2 {
+  font-size: 1.15rem;
+  color: #c92a2a;
+  font-family: 'Inter', Arial, sans-serif;
+  margin-bottom: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.love-content {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1.05rem;
+  color: #222;
+  line-height: 1.8rem;
+}
+.arabic {
+  font-family: 'Amiri', serif;
+  font-size: 1.5rem;
+  direction: rtl;
+  text-align: right;
+  color: #1b4332;
+  margin-bottom: 0.5rem;
+  line-height: 2.1rem;
+}
+.translation {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+  line-height: 1.7rem;
+}
+.source {
+  display: block;
+  font-size: 0.95rem;
+  color: #40916c;
+  text-decoration: none;
+  margin-bottom: 0.2rem;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.source:hover {
+  text-decoration: underline;
+}
+.about {
+  text-align: center;
+}
+.about.card {
+  background: #eaf6fb;
+  border: 1.5px solid #b6e0fa;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(52,152,219,0.07);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+.about.card h2 {
+  color: #2176ae;
+  font-size: 1.18rem;
+  font-family: 'Inter', Arial, sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.about.card p {
+  font-size: 1.05rem;
+  color: #22577a;
+  line-height: 1.7rem;
+  margin-bottom: 1.1rem;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.about.card a {
+  color: #2176ae;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.about.card a:hover {
+  color: #38a3d1;
+}
+.about .about-btn {
+  display: inline-block;
+  margin: 0.7rem auto 0 auto;
+  background: #ffd700;
+  color: #222;
+  padding: 0.55rem 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+  font-family: 'Inter', Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(255,215,0,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+  text-align: center;
+  border: none;
+}
+.about .about-btn:hover {
+  background: #ffe066;
+  color: #222;
+  box-shadow: 0 4px 16px rgba(255,215,0,0.13);
+}
+.donate {
+  display: inline-block;
+  margin-top: 0.7rem;
+  background: #ffd700;
+  color: #222;
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background 0.2s;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.donate:hover {
+  background: #ffe066;
+}
+footer {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #888;
+  margin-bottom: 1rem;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.launchgood-message {
+  background: #f8f9fa;
+  border: 1.5px solid #e0e0e0;
+  margin-bottom: 2rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.launchgood-message h2 {
+  font-size: 1.25rem;
+  color: #218838;
+  font-family: 'Inter', Arial, sans-serif;
+  margin-bottom: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.launchgood-content {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1.07rem;
+  color: #222;
+  line-height: 1.85rem;
+  padding: 0 0.2rem;
+}
+.launchgood-content strong {
+  color: #1b4332;
+}
+.launchgood-content a {
+  color: #218838;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.launchgood-content blockquote {
+  border-left: 4px solid #218838;
+  background: #f1f8f4;
+  margin: 1.2rem 0;
+  padding: 0.8rem 1rem;
+  font-style: italic;
+  color: #155724;
+  font-size: 1.05rem;
+  border-radius: 0.5rem;
+}
+.refresh-btn {
+  display: inline-block;
+  margin: 0.5rem 0.3rem 0.5rem 0;
+  background: linear-gradient(90deg, #38a3d1 0%, #2176ae 100%);
+  color: #fff;
+  padding: 0.45rem 1.2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Inter', Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(33,136,56,0.08);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.refresh-btn:hover {
+  background: linear-gradient(90deg, #2176ae 0%, #38a3d1 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(33,136,56,0.13);
+}
+.refresh-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.external-btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+.external-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #2176ae 0%, #38b000 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.55rem 1.3rem;
+  border: none;
+  border-radius: 2rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(33, 118, 174, 0.08);
+  transition: background 0.2s, transform 0.2s;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+.external-btn:hover, .external-btn:focus {
+  background: linear-gradient(90deg, #38b000 0%, #2176ae 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+  text-decoration: none;
+}
+.contact.card {
+  background: #f7fafc;
+  border: 1.5px solid #b6e0fa;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px rgba(33, 118, 174, 0.07);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: box-shadow 0.3s cubic-bezier(.4,2,.6,1), border 0.3s;
+}
+.contact.card:hover {
+  box-shadow: 0 4px 24px rgba(33, 118, 174, 0.13);
+  border: 1.5px solid #38b000;
+}
+.contact.card h2 {
+  color: #2176ae;
+  font-size: 1.18rem;
+  font-family: 'Inter', Arial, sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.form-group {
+  margin-bottom: 1.1rem;
+  text-align: left;
+  position: relative;
+  transition: all 0.2s;
+}
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #2176ae;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  border: 1.2px solid #b6e0fa;
+  border-radius: 0.7rem;
+  font-size: 1rem;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  box-sizing: border-box;
+  margin-bottom: 0.1rem;
+  transition: border 0.3s, box-shadow 0.3s, background 0.3s;
+  outline: none;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border: 1.5px solid #38b000;
+  background: #eaf6fb;
+  box-shadow: 0 2px 8px rgba(56,176,0,0.08);
+}
+#contact-form button[type="submit"] {
+  margin-top: 0.5rem;
+  width: 100%;
+  font-size: 1.08rem;
+  padding: 0.7rem 0;
+  border-radius: 2rem;
+  background: linear-gradient(90deg, #2176ae 0%, #38b000 100%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 2px 8px rgba(33, 118, 174, 0.08);
+  transition: background 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+#contact-form button[type="submit"]:hover, #contact-form button[type="submit"]:focus {
+  background: linear-gradient(90deg, #38b000 0%, #2176ae 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+#contact-success {
+  display: none;
+  color: #38b000;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#contact-success.show {
+  display: block;
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0.2rem 2rem 0.2rem;
+  }
+  .app-title {
+    font-size: 1.5rem;
+  }
+  .card {
+    padding: 0.9rem 0.5rem 0.7rem 0.5rem;
+  }
+  .arabic {
+    font-size: 1.1rem;
+  }
+  .translation {
+    font-size: 1rem;
+  }
+  .launchgood-message {
+    padding: 1rem 0.4rem 1rem 0.4rem;
+  }
+  .launchgood-message h2 {
+    font-size: 1.05rem;
+  }
+  .launchgood-content {
+    font-size: 0.98rem;
+  }
+  .refresh-btn {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.9rem;
+  }
+  .refresh-group {
+    gap: 0.3rem;
+  }
+}

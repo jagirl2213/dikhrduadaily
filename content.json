@@ -1,0 +1,59 @@
+{
+  "quran": [
+    {
+      "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "english": "Indeed, with hardship [will be] ease. (Quran 94:6)",
+      "source": "https://quran.com/94/6",
+      "sourceText": "Quran.com"
+    },
+    {
+      "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+      "english": "Allah! There is no deity except Him, the Ever-Living, the Sustainer of [all] existence. (Quran 2:255)",
+      "source": "https://quran.com/2/255",
+      "sourceText": "Quran.com"
+    },
+    {
+      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "english": "For indeed, with hardship [will be] ease. (Quran 94:5)",
+      "source": "https://quran.com/94/5",
+      "sourceText": "Quran.com"
+    }
+  ],
+  "hadith": [
+    {
+      "english": "The best among you are those who have the best manners and character. (Bukhari)",
+      "source": "https://hadithoftheday.com/the-best-among-you-are-those-who-have-the-best-manners-and-character/",
+      "sourceText": "Hadithoftheday.com"
+    },
+    {
+      "english": "Actions are judged by intentions. (Bukhari & Muslim)",
+      "source": "https://hadithoftheday.com/actions-are-judged-by-intentions/",
+      "sourceText": "Hadithoftheday.com"
+    },
+    {
+      "english": "Make things easy and do not make them difficult, and cheer people up and do not drive them away. (Bukhari)",
+      "source": "https://hadithoftheday.com/make-things-easy-and-do-not-make-them-difficult/",
+      "sourceText": "Hadithoftheday.com"
+    }
+  ],
+  "dua": [
+    {
+      "arabic": "رَبِّ زِدْنِي عِلْمًا",
+      "english": "My Lord, increase me in knowledge. (Quran 20:114)",
+      "source": "http://abuaminaelias.com/dailydua/",
+      "sourceText": "AbuAminaElias.com"
+    },
+    {
+      "arabic": "اللهم إني أسألك العفو والعافية",
+      "english": "O Allah, I ask You for pardon and well-being.",
+      "source": "http://abuaminaelias.com/dailydua/dua-ask-for-pardon-and-well-being/",
+      "sourceText": "AbuAminaElias.com"
+    },
+    {
+      "arabic": "اللهم اهدني وسددني",
+      "english": "O Allah, guide me and keep me steadfast.",
+      "source": "http://abuaminaelias.com/dailydua/dua-for-guidance-and-steadfastness/",
+      "sourceText": "AbuAminaElias.com"
+    }
+  ]
+}
