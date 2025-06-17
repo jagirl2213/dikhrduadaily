@@ -6,6 +6,28 @@ import random
 import json
 import os
 
+from flask import Flask, jsonify, send_from_directory
+from flask_cors import CORS
+import os
+# ...other imports...
+
+app = Flask(__name__)
+CORS(app)
+
+# ...your existing API routes...
+
+# Serve index.html at root
+@app.route('/')
+def serve_index():
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    return send_from_directory(project_root, 'index.html')
+
+# Serve any other static file (css, js, images, etc.)
+@app.route('/<path:path>')
+def serve_static(path):
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    return send_from_directory(project_root, path)
+    
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
