@@ -361,34 +361,60 @@ footer {
 }
 @media (max-width: 600px) {
   .container {
-    padding: 1rem 0.2rem 2rem 0.2rem;
+    max-width: 100vw;
+    padding: 1rem 0.2rem 1.5rem 0.2rem;
+  }
+  .card, .about.card, .contact.card, .launchgood-message.card {
+    padding: 1rem 0.5rem 0.8rem 0.5rem;
+    border-radius: 0.8rem;
+    margin-bottom: 1.1rem;
   }
   .app-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 0.2rem;
   }
-  .card {
-    padding: 0.9rem 0.5rem 0.7rem 0.5rem;
+  .app-desc {
+    font-size: 0.98rem;
+    padding: 0 0.2rem;
   }
   .arabic {
     font-size: 1.1rem;
+    line-height: 1.7rem;
   }
   .translation {
-    font-size: 1rem;
+    font-size: 0.98rem;
+    line-height: 1.3rem;
   }
-  .launchgood-message {
-    padding: 1rem 0.4rem 1rem 0.4rem;
+  .external-btn, #contact-form button[type="submit"] {
+    font-size: 0.98rem;
+    padding: 0.6rem 0.7rem;
   }
-  .launchgood-message h2 {
+  .form-group input, .form-group textarea {
+    font-size: 0.98rem;
+    padding: 0.5rem 0.7rem;
+  }
+  .about.card h2, .contact.card h2, .launchgood-message.card h2 {
     font-size: 1.05rem;
   }
-  .launchgood-content {
-    font-size: 0.98rem;
-  }
-  .refresh-btn {
-    font-size: 0.95rem;
-    padding: 0.4rem 0.9rem;
-  }
-  .refresh-group {
-    gap: 0.3rem;
-  }
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.card, .about.card, .contact.card, .launchgood-message.card {
+  width: 100%;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.arabic, .translation, .source {
+  word-break: break-word;
 }
